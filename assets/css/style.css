@@ -10,7 +10,7 @@ body {
 }
 
 body::before {
-  background: #385752 url("../img/bg.jpg") top right no-repeat;
+  background: #385752 url("assets/img/bg.jpg") top right no-repeat;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #35554f, #026958);
   /* Chrome 10-25, Safari 5.1-6 */
