@@ -10,9 +10,15 @@ body {
 }
 
 body::before {
+  background: #385752 url("../img/bg.jpg") top right no-repeat;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #35554f, #026958);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #094a40, #57968bd3);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
   content: "";
   position: fixed;
-  background: #385752 url("../img/bg.jpg") top right no-repeat;
+  /* background: #385752 url("../img/bg.jpg") top right no-repeat; */
   background-size: cover;
   left: 0;
   right: 0;
@@ -147,7 +153,7 @@ h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: #172421fb;
 }
 
 #header.header-top .social-links,
@@ -347,7 +353,7 @@ section.section-show {
 }
 
 section .container {
-  background: rgba(0, 0, 0, 0.9);
+  background: #172421d7;
   padding: 30px;
 }
 
